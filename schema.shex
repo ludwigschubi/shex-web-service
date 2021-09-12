@@ -1,0 +1,44 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wbs: <https://www.wikidata.org/wiki/EntitySchema:E141#>
+
+wbs:web_service {
+    wdt:P31 [wd:Q193424];
+      wdt:P856 IRI *;
+      wdt:P571 xsd:dateTime?;
+      wdt:P17 [<http://www.wikidata.org/entity>~]?;
+      wdt:P154 [<http://commons.wikimedia.org/wiki/Special:FilePath>~]*;
+      wdt:P178 [<http://www.wikidata.org/entity>~]*;
+      wdt:P407 [<http://www.wikidata.org/entity>~]*;
+      wdt:P366 [<http://www.wikidata.org/entity>~]*;
+      wdt:P127 [<http://www.wikidata.org/entity>~]*;
+      wdt:P348 xsd:string?;
+      wdt:P275 [<http://www.wikidata.org/entity>~]*;
+      wdt:P373 xsd:string?;
+      wdt:P137 [<http://www.wikidata.org/entity>~]*;
+      wdt:P159 [<http://www.wikidata.org/entity>~]?;
+      wdt:P112 [<http://www.wikidata.org/entity>~]*;
+      wdt:P577 xsd:dateTime?;
+      wdt:P138 [<http://www.wikidata.org/entity>~]*;
+      wdt:P1482 IRI ?;
+      wdt:P144 [<http://www.wikidata.org/entity>~]*;
+      wdt:P1581 [<http://movatwitter.jugem.jp>~]?;
+      wdt:P1889 [<http://www.wikidata.org/entity>~]?;
+      wdt:P751 [<http://www.wikidata.org/entity>~]*;
+      wdt:P4107 xsd:string?;
+      wdt:P126 [<http://www.wikidata.org/entity>~]*;
+      wdt:P941 [<http://www.wikidata.org/entity>~]*;
+      wdt:P2283 [<http://www.wikidata.org/entity>~]*;
+      wdt:P2397 xsd:string?;
+      wdt:P3984 xsd:string*;
+      wdt:P7306 xsd:string?;
+      wdt:P3417 xsd:string?;
+      wdt:P2088 xsd:string?;
+      wdt:P2013 xsd:string?;
+      wdt:P646 xsd:string?;
+      wdt:P3393 xsd:string?
+}
